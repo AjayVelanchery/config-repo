@@ -3,7 +3,7 @@ global:
 
 logging:
   level:
-    root:INFO
+    root: INFO
 
 management:
   endpoints:
