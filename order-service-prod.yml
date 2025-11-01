@@ -8,7 +8,7 @@ message: Hello from order Prod
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/order_prod
+    url: jdbc:mysql://localhost:3306/order_master
     username: root
     password:
 
