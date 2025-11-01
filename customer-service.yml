@@ -3,8 +3,10 @@ spring:
     name: customer-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/customer_master
-    driverclassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/customer_master  
+    driver-class-name: com.mysql.cj.jdbc.Driver       
+    username: root                                     
+    password: Ajayv@10                            
 
   jpa:
     hibernate:
